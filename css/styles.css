@@ -1,0 +1,80 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+::selection{
+    background-color: #497fc6; 
+}
+.btn-primary {
+    color: #004aad;
+    background-color: #fff;
+    border-color: #004aad;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #004aad;
+    border-color: #fff;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #004aad;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem #fff;
+}
+
+.btn-check:checked+.btn-primary,
+.btn-check:active+.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #004aad;
+    border-color: #fff;
+}
+
+.btn-check:checked+.btn-primary:focus,
+.btn-check:active+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem #fff;
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+    color: #fff;
+    background-color: #004aad;
+    border-color: #fff;
+}
+body{
+    background-color: #ffffff;
+}
+window.fullScreenElement{
+    background-color: #ffffff;
+}
+cite{
+    color: #000;
+    font-size: 35px;
+    position: relative;
+    font-weight: 150;
+}
+#teste{
+    /*Horizontal*/
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+
+    /*Vertical*/
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+b{
+    font-size: 27px;
+}
